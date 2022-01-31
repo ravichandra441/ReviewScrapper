@@ -4,10 +4,13 @@
  Text scrappers are extensively used in the industry today for competitive pricing, 
  market studies, customer sentiment analysis.Hence, web scrappers are applications/bots, 
  which automatically send requests to websites and then extract the desired information from the website output.
-          
+ 
+ 3. Application Architecture:
+ 
+ ![Architecture of  Review Scrapper](https://user-images.githubusercontent.com/55264211/151788906-44fb5ef6-c4fb-445f-9531-71d29acc5f8f.PNG)        
          
-##1. Prerequisites:
-       The things needed before we start building a python based web scraper are:
+## 1. Prerequisites:
+  The things needed before we start building a python based web scraper are:
               • Python installed.
               • A Python IDE (Integrated Development Environment): like PyCharm, Spyder, or any other IDE of choice
               • Flask Installed. (A simple command: pip install flask)
@@ -15,7 +18,7 @@
               • Basic understanding of Python and HTML.
               • Basic understanding of Git (download Git CLI from https://gitforwindows.org/  
               
-##2. Python Implementation:
+## 2. Python Implementation:
     Note: I have used PyCharm as an IDE for this documentation
     
    1. Let’s create a folder called ‘reviewScrapper’ on our local machine
@@ -35,4 +38,9 @@
         a) Import the necessary libraries.
         b) Initialize the flask app.
         c) Creating the routes to redirect the control inside the application itself. Based on the route path, the control gets transferred inside the application.
-        d) After this, we’ll just run our python app on our local system, and it’ll start scraping for reviews.
+        d) After this, we’ll just run our python app on our local system, and it’ll start scraping for reviews.s as shown below:
+
+## Home Page
+     
+  ![home page and search results review scrapper](https://user-images.githubusercontent.com/55264211/151788963-cb075a2b-c45f-49c6-b22c-ba8a0b5f7e0b.PNG)
+
