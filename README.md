@@ -6,7 +6,7 @@
  which automatically send requests to websites and then extract the desired information from the website output.
           
          
-1. Prerequisites:
+##1. Prerequisites:
        The things needed before we start building a python based web scraper are:
               • Python installed.
               • A Python IDE (Integrated Development Environment): like PyCharm, Spyder, or any other IDE of choice
@@ -14,11 +14,11 @@
               • MongoDB installed.
               • Basic understanding of Python and HTML.
               • Basic understanding of Git (download Git CLI from https://gitforwindows.org/  
-
-2. Python Implementation:
+              
+##2. Python Implementation:
     Note: I have used PyCharm as an IDE for this documentation
     
-    1. Let’s create a folder called ‘reviewScrapper’ on our local machine
+   1. Let’s create a folder called ‘reviewScrapper’ on our local machine
     2. Inside that folder, let’s create two more folders called ‘static’ and ‘templates’ to hold the code for the UI of our application. 
         Inside ‘static’, let’s create a folder called ‘css’ 
     3. Let’s create a file called ‘flask_app.py’ inside the ‘reviewScrapper’ folder.
