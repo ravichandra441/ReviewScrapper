@@ -30,14 +30,14 @@
         • index.html→ Home page of our application.
         • results.html→ Page to show the reviews for the searched keyword.
     - Now, let’s understand the flow:
-        a) When the application starts, the user sees the page called ‘index.html’.
-        b) The user enters the search keyword into the search box and presses the submit button.
-        c) The application now searches for reviews and shows the result on the ‘results.html’page.
+       - a) When the application starts, the user sees the page called ‘index.html’.
+       - b) The user enters the search keyword into the search box and presses the submit button.
+       - c) The application now searches for reviews and shows the result on the ‘results.html’page.
     -Understanding flask_app.py:
-        a) Import the necessary libraries.
-        b) Initialize the flask app.
-        c) Creating the routes to redirect the control inside the application itself. Based on the route path, the control gets transferred inside the application.
-        d) After this, we’ll just run our python app on our local system, and it’ll start scraping for reviews.s as shown below:
+        - a) Import the necessary libraries.
+        - b) Initialize the flask app.
+        - c) Creating the routes to redirect the control inside the application itself. Based on the route path, the control gets transferred inside the application.
+        - d) After this, we’ll just run our python app on our local system, and it’ll start scraping for reviews.s as shown below:
 
 ## Home Page
      
