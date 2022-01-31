@@ -15,7 +15,8 @@
   - Basic understanding of Git (download Git CLI from https://gitforwindows.org/  
   
    Application Architecture:
-    ![Architecture of  Review Scrapper](https://user-images.githubusercontent.com/55264211/151788906-44fb5ef6-c4fb-445f-9531-71d29acc5f8f.PNG)
+   
+   ![Architecture of  Review Scrapper](https://user-images.githubusercontent.com/55264211/151788906-44fb5ef6-c4fb-445f-9531-71d29acc5f8f.PNG)
               
 ## 2. Python Implementation:
     Note: I have used PyCharm as an IDE for this documentation
@@ -29,11 +30,11 @@
         • base.html→ It acts as the common building block for the other two HTML pages.
         • index.html→ Home page of our application.
         • results.html→ Page to show the reviews for the searched keyword.
-    - Now, let’s understand the flow:
+   ## Now, let’s understand the flow:
        - a) When the application starts, the user sees the page called ‘index.html’.
        - b) The user enters the search keyword into the search box and presses the submit button.
        - c) The application now searches for reviews and shows the result on the ‘results.html’page.
-    -Understanding flask_app.py:
+   ## Understanding flask_app.py:
         - a) Import the necessary libraries.
         - b) Initialize the flask app.
         - c) Creating the routes to redirect the control inside the application itself. Based on the route path, the control gets transferred inside the application.
