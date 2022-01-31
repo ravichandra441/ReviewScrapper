@@ -3,11 +3,7 @@
  a review scrapper right from scratch and then deploying it to the AWS cloud platform. 
  Text scrappers are extensively used in the industry today for competitive pricing, 
  market studies, customer sentiment analysis.Hence, web scrappers are applications/bots, 
- which automatically send requests to websites and then extract the desired information from the website output.
- 
- 3. Application Architecture:
- 
- ![Architecture of  Review Scrapper](https://user-images.githubusercontent.com/55264211/151788906-44fb5ef6-c4fb-445f-9531-71d29acc5f8f.PNG)        
+ which automatically send requests to websites and then extract the desired information from the website output.        
          
 ## 1. Prerequisites:
   The things needed before we start building a python based web scraper are:
@@ -17,6 +13,9 @@
   • MongoDB installed.
   • Basic understanding of Python and HTML.
   • Basic understanding of Git (download Git CLI from https://gitforwindows.org/  
+  
+   Application Architecture:
+    ![Architecture of  Review Scrapper](https://user-images.githubusercontent.com/55264211/151788906-44fb5ef6-c4fb-445f-9531-71d29acc5f8f.PNG)
               
 ## 2. Python Implementation:
     Note: I have used PyCharm as an IDE for this documentation
