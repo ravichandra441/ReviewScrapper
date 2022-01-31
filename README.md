@@ -1,9 +1,9 @@
 # ReviewScrapper:
-                     This application is about creating a web scraper, in this case,
-             a review scrapper right from scratch and then deploying it to the AWS cloud platform. 
-             Text scrappers are extensively used in the industry today for competitive pricing, 
-             market studies, customer sentiment analysis.Hence, web scrappers are applications/bots, 
-             which automatically send requests to websites and then extract the desired information from the website output.
+   This application is about creating a web scraper, in this case,
+ a review scrapper right from scratch and then deploying it to the AWS cloud platform. 
+ Text scrappers are extensively used in the industry today for competitive pricing, 
+ market studies, customer sentiment analysis.Hence, web scrappers are applications/bots, 
+ which automatically send requests to websites and then extract the desired information from the website output.
           
          
 1. Prerequisites:
